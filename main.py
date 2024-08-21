@@ -23,4 +23,4 @@ cv2.destroyAllWindows()
 
 BGR_color = np.array([[[255, 0, 0]]])
 cv2.cvtColor([[[255, 0, 0]]], cv2.COLOR_BGR2HSV)
-x[][]
+x[0][0]
