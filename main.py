@@ -14,7 +14,7 @@ while True:
 
     mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
-    result = 
+    result = cv2
 
     cv2.imshow('frame', hsv)
 
