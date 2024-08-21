@@ -8,7 +8,7 @@ while True:
     width = int(cap.get(3))
     height = int(cap.get(4))
 
-    hsv = cv2.cvtColor()
+    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
 
     cv2.imshow('frame', frame)
 
