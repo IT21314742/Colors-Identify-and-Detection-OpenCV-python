@@ -12,7 +12,7 @@ while True:
     lower_blue = np.array([110, 50, 50])
     upper_blue = np.array([130, 255, 255])
 
-    mask = cv2.inRange(hsv, lower_blue)
+    mask = cv2.inRange(hsv, lower_blue, upper_blue)
 
     cv2.imshow('frame', hsv)
 
