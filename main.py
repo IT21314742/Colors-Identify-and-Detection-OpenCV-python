@@ -21,4 +21,4 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-cv2.cvtColor([[255, 0, ]], cv2.COLOR_BGR2HSV)
+cv2.cvtColor([[255, 0, 0]], cv2.COLOR_BGR2HSV)
