@@ -9,7 +9,7 @@ while True:
     height = int(cap.get(4))
 
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    lower_blue = np.array([])
+    lower_blue = np.array([110, 50, 50])
     upper_blue = np.array([])
 
     cv2.imshow('frame', hsv)
