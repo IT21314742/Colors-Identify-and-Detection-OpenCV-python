@@ -21,5 +21,5 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-BGR_color = np.array()
+BGR_color = np.array([[[]]])
 cv2.cvtColor([[[255, 0, 0]]], cv2.COLOR_BGR2HSV)
