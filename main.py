@@ -17,7 +17,7 @@ while True:
     result = cv2.bitwise_and(frame, frame, mask=mask)
 
     cv2.imshow('frame', result)
-    cv2.imshow('mask', result)
+    cv2.imshow('mask', mask)
 
 
     if cv2.waitKey(1) == ord('q'):
