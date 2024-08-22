@@ -28,4 +28,4 @@ cv2.destroyAllWindows()
 
 
 # BGR_color = np.array([[[255, 0, 0]]])
-# x = cv2.cvtCo
+# x = cv2.cvtC
