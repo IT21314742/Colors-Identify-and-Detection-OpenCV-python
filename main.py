@@ -27,4 +27,4 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-# BGR_color = np.array([
+# BGR_color = np.array(
