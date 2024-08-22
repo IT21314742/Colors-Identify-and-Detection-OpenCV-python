@@ -27,4 +27,4 @@ cap.release()
 cv2.destroyAllWindows()
 
 
-# BGR_color = np.a
+# BGR_color = np.
